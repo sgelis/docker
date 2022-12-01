@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  patacrep:
+    image: sgelis/patacrep:2022-12-01
+    build:
+      context: .
+    volumes:
+      - .:/app
